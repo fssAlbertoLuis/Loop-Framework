@@ -1,0 +1,22 @@
+body {
+    background-color: lightgray;
+}
+
+.main {
+    padding: 10px;
+}
+
+.main .logo {
+    margin: auto;
+    text-align: center;
+}
+
+.main .logo img {
+    padding:20px;
+}
+
+.main h1 {
+    font-weight:bold;
+    color: dodgerblue;
+    text-align: center;
+}

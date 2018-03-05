@@ -1,0 +1,23 @@
+{
+    "name": "fssAlbertoLuis/LoopFM",
+    "description": "A sandbox framework for learning purposes.",
+    "authors": [
+        {
+            "name": "Luis Alberto",
+            "email": "albertoluis0108@gmail.com"
+        }
+    ],
+    "require": {
+        "matthiasmullie/minify": "*",
+        "firebase/php-jwt": "*",
+        "PHP": "^7"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "LoopFM\\": "src/App",
+            "Model\\": "src/Models",
+            "\\": "vendor/"
+        }
+    }
+}
