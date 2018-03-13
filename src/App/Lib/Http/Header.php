@@ -38,42 +38,16 @@ class Header
     }
 
     /**
-     * Send bad request error to header
+     * The string of the header to be sent
+     * @param $header - can receive a constant of static class StatusCode
      */
-    public static function err400()
+    public static function send($header)
     {
-        header('HTTP/1.0 400 Bad Request');
+        header($header);
     }
 
-    /**
-     * Send unauthorized error to header
-     */
-    public static function err401()
+    public static function get($header_name)
     {
-        header('HTTP/1.0 401 Unauthorized');
-    }
 
-    /**
-     * Send forbidden error to header
-     */
-    public static function err403()
-    {
-        header('HTTP/1.0 403 Forbidden');
-    }
-
-    /**
-     * Send Internal server error to header
-     */
-    public static function err500()
-    {
-        header('HTTP/1.0 500 Internal Server Error');
-    }
-
-    /**
-     * Send 404 not found error to header
-     */
-    public static function err404()
-    {
-        header('HTTP/1.0 404 Not Found');
     }
 }

@@ -41,3 +41,4 @@ Thumbs.db
 .htaccess
 src/tmp/
 vendor/
+composer.lock
