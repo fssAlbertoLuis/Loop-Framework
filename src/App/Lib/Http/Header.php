@@ -45,9 +45,4 @@ class Header
     {
         header($header);
     }
-
-    public static function get($header_name)
-    {
-
-    }
 }
